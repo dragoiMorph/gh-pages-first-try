@@ -15,12 +15,12 @@
 <body>
 <main>
     <h1>MORPH, WORLD!</h1>
-    <p id="Number"></p>
+    <p id="Number">0</p>
     <button onclick="ButtonStuff()">&lt&gt</button>
 </main>
 <!-- JAVASCRIPT -->
     <script>
-        let numberVar = document.getElementById(Number);
+        const numberVar = document.getElementById('Number');
         let randoVar = 420;
         numberVar.innerHTML = randoVar;
         function ButtonStuff() {
