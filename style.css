@@ -1,7 +1,7 @@
 :root {
     --back-color: #696969; /* dimgray */
     --h1-text-color: #FF4500; /* darkorange */
-
+}
 
 body {
     background-color: --back-color !important;
