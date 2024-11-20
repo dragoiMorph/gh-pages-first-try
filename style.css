@@ -1,6 +1,6 @@
 :root {
-    --back-color: dimgray;
-    --h1-text-color: darkorange;
+    --back-color: #696969; /* dimgray */
+    --h1-text-color: #FF4500; /* darkorange */
 
 
 body {
