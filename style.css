@@ -1,7 +1,12 @@
+:root {
+    --back-color: dimgray;
+    --h1-text-color: darkorange;
+
+
 body {
-    background-color: dimgray;
+    background-color: --back-color;
 }
 
 h1 {
-    color: darkorange;
+    color: --h1-text-color;
 }
