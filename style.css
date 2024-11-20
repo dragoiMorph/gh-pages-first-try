@@ -4,7 +4,7 @@
 }
 
 body {
-    background-color: --back-color !important;
+    background-color: --back-color;
 }
 
 h1 {
