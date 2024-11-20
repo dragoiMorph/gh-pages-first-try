@@ -1,6 +1,7 @@
 :root {
     --back-color: #696969; /* dimgray */
     --h1-text-color: #FF4500; /* darkorange */
+    --h2-text-color: #663399; /* rebeccapurple */
 }
 
 body {
@@ -9,4 +10,8 @@ body {
 
 h1 {
     color: var(--h1-text-color);
+}
+
+h2 {
+    color: var(--h2-text-color)
 }
