@@ -4,9 +4,9 @@
 }
 
 body {
-    background-color: --back-color !important;
+    background-color: var(--back-color);
 }
 
 h1 {
-    color: --h1-text-color;
+    color: var(--h1-text-color);
 }
