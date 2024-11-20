@@ -3,7 +3,7 @@
     --h1-text-color: darkorange;
 
 
-main {
+body {
     background-color: --back-color;
 }
 
