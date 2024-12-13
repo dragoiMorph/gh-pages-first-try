@@ -1,7 +1,8 @@
 :root {
-    --back-color: #696969; /* dimgray */
+    --back-color: #0088FF; /* skyblue */
     --h1-text-color: #FF4500; /* darkorange */
     --h2-text-color: #663399; /* rebeccapurple */
+    --numberDisplay-text-color: chartreuse; 
 }
 
 body {
@@ -14,4 +15,10 @@ h1 {
 
 h2 {
     color: var(--h2-text-color)
+}
+
+.numberDisplay {
+    color: var(--numberDisplay-text-color);
+    font-size: larger;
+    font-weight: 300;
 }

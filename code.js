@@ -1,7 +1,10 @@
 const numberVar = document.getElementById('Number');
-let randoVar = 420;
-numberVar.innerHTML = randoVar;
+let previousStep = 1;
+let nowStep = 1;
+numberVar.innerHTML = nowStep;
 function ButtonStuff() {
-    randoVar++;
-    numberVar.innerHTML = randoVar;
+    let nextStep = nowStep + previousStep;
+    numberVar.innerHTML = nextStep;
+    previousStep = nowStep;
+    nowStep = nextStep;
 }
