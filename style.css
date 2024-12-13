@@ -6,7 +6,13 @@
 }
 
 body {
-    background-color: var(--back-color);
+    width: 100%;
+    height: 100%;
+    animation-name: bodyBGColorFade;
+    animation-duration: 15s;
+    animation-fill-mode: forwards;
+    padding: 3vh;
+    margin: 3vw;
 }
 
 h1 {
@@ -21,4 +27,24 @@ h2 {
     color: var(--numberDisplay-text-color);
     font-size: larger;
     font-weight: 300;
+}
+
+.thingy {
+    animation-name: thingyBGColorFade;
+    animation-duration: 15s;
+    animation-fill-mode: forwards;
+}
+
+/* KEYFRAMES */
+
+@keyframes bodyBGColorFade {
+    0% {background-color: yellow;}
+    50% {background-color: #0088FF;}
+    100% {background-color: green;}
+}
+
+@keyframes thingyBGColorFade {
+    0% {background-color: red;}
+    50% {background-color: orange;}
+    100% {background-color: purple;}
 }
